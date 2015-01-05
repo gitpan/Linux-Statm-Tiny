@@ -1,12 +1,12 @@
 package Linux::Statm::Tiny;
-$Linux::Statm::Tiny::VERSION = '0.0200';
+$Linux::Statm::Tiny::VERSION = '0.0201';
 use Moo;
 
 use Fcntl qw/ O_RDONLY /;
 use Types::Standard qw/ ArrayRef Int /;
 
 {
-    $Linux::Statm::Tiny::VERSION = '0.0200'
+    $Linux::Statm::Tiny::VERSION = '0.0201'
 }
 
 =head1 NAME

@@ -23,10 +23,12 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Fcntl" => 0,
     "Moo" => 0,
-    "Test::More" => 0,
     "Types::Standard" => 0
   },
-  "VERSION" => "0.0200",
+  "TEST_REQUIRES" => {
+    "Test::More" => 0
+  },
+  "VERSION" => "0.0201",
   "test" => {
     "TESTS" => "t/*.t"
   }
