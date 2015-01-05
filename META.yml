@@ -21,4 +21,4 @@ requires:
 resources:
   bugtracker: https://github.com/robrwo/Linux-Statm-Tiny/issues
   repository: git://github.com/robrwo/Linux-Statm-Tiny.git
-version: '0.0100'
+version: '0.0200'
